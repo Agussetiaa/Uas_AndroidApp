@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="mawar">#ff007f</color>
+    <color name="krisbow">#dc143c</color>
+    <color name="colorprimary">#3f51B5</color>
+    <color name="Purple">#7A0DF4</color>
+    <color name="kuning">#FFFF00</color>
+    <color name="coklat">#DEB887</color>
+    <color name="biru">#0000FF</color> <!-- Warna Biru -->
+    <color name="merah">#FF0000</color> <!-- Warna Merah -->
+    <color name="hijau">#00FF00</color> <!-- Warna Hijau -->
+    <color name="cream">#EEC759</color>
+</resources>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listActionItem"
+        android:title="List Action"
+        android:icon="@drawable/movie" />
+    <item
+        android:id="@+id/listKomedyItem"
+        android:title="List Komedy"
+        android:icon="@drawable/movie" />
+    <item
+        android:id="@+id/listRomanceItem"
+        android:title="List Romance"
+        android:icon="@drawable/movie" />
+
+</menu>

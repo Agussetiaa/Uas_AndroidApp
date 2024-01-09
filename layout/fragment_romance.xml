@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="start">
+
+    <ImageView
+        android:id="@+id/imageRomance"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/romns" />
+
+    <TextView
+        android:id="@+id/textRomance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/biru"
+        android:padding="8dp"
+        android:text="@string/sinopsis_romantis"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/descriptionAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:background="@color/white"
+            android:text="@string/action_romance"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</LinearLayout>

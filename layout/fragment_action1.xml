@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="start">
+
+    <ImageView
+        android:id="@+id/imageAction1"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/st" />
+
+    <TextView
+        android:id="@+id/textAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/srigala"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/merah"
+        android:padding="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:padding="0dp"> <!-- Set padding yang sama dengan padding pada TextView -->
+
+        <TextView
+            android:id="@+id/descriptionAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:background="@color/white"
+            android:text="@string/sinopsis_srigala"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+</LinearLayout>
